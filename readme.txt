@@ -1,4 +1,4 @@
---Readme document for *author*--
+--Readme document for *Sylvia Young*--
 
 A reminder on academic integrity, as described in the syllabus.
 
@@ -22,8 +22,13 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-
-
+One image with descriptive alt attributes.
+Appropriate headings and paragraph text on pages.
+Two images with alt attributes used as icons to open new page for GitHub and LinkedIn respectively.
+GitHub and LinkedIn icons are used to link to external pages.
+Multiple custom icons from Google Material Icons for menu, new email page, etc.
+Use of  section and footer semantic HTML tag.
+Multiple pages accessible from home page (index.html) and menu on each page.
 
 (b) CSS features
 
@@ -34,12 +39,14 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 3. How long, in hours, did it take you to complete this assignment?
-
+8 hours.
 
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
-
-
+https://www.w3schools.com/TAGS/default.asp
+https://www.w3schools.com/html/html5_semantic_elements.asp
+https://feathericons.com/
+https://www.w3schools.com/css/css_rwd_mediaqueries.asp
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 
