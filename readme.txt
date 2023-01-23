@@ -10,14 +10,15 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/15
-- */1 Readme
-- */3 Basic HTML content
-- */3 Basic CSS styling
-- */2 Advanced feature
-- */3 Responsive layout
-- */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+15/15
+- 1/1 Readme
+- 3/3 Basic HTML content
+- 3/3 Basic CSS styling
+- 2/2 Advanced feature
+- 3/3 Responsive layout
+- 1/1 Passes validation checks
+- 2/2 Embraces spirit of the assignment
+
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
@@ -31,15 +32,15 @@ Use of  section and footer semantic HTML tag.
 Multiple pages accessible from home page (index.html) and menu on each page.
 
 (b) CSS features
-
-
+Modified padding and margins.
+Modified link, text, and background colors.
 
 (c) Advanced features
-
+Added contact form to send/receive messages.
 
 
 3. How long, in hours, did it take you to complete this assignment?
-8 hours.
+20 hours.
 
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
@@ -47,10 +48,16 @@ https://www.w3schools.com/TAGS/default.asp
 https://www.w3schools.com/html/html5_semantic_elements.asp
 https://feathericons.com/
 https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+https://www.w3schools.com/html/html_forms.asp
+
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-
+Alicia (Seunghyung) Choi - classmate
+Checking website responsiveness. Use of media queries for responsiveness. Website layout/format.
 
 
 6. Is there anything special we need to know in order to run your code?
-
+index.html is the homepage. The file was not renamed for easier finding, testing, and grading.
+All .jpg and .svg files are included within .zip folder.
+The contact form does not yet store the data submitted through the form as this is not included in the
+assignment specifications. This will later be updated for personal use.

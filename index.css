@@ -1,128 +1,229 @@
-.background_video {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    opacity: 0.5;
-}
-
 body {
-    font-family: "Monaco", sans-serif;
+    font-family: 'Anonymous Pro', monospace;
     background-color:rgb(226, 226, 224);
     padding: 20px;
 }
-
-
 .name {
     font-weight: 100;
-    font-size: 50px;
+    padding-left: 10px;
 }
-
-
 .description {
     font-weight: 900;
-    font-size: 16px;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
-
-
 .footer {
     font-weight: 200;
-    font-size: 12px;
+    font-size: 14px;
+    clear: both;
+    position: relative;
+    bottom: 0;
+    padding-top: 10px;
 }
-
-
 .pages {
     font-weight: 900;
+    font-size: 20px;
     color: rgb(84, 84, 84);
 }
 
-img {
-    max-width: 50%;
-    height: auto;
+/* Darken current page name */
+#home {
+    filter: brightness(0%);
+}
+#about {
+    filter:brightness(0%);
+}
+#projects {
+    filter:brightness(0%);
+}
+#contact {
+    filter:brightness(0%);
 }
 
+
+/* Home page */
+#welcome {
+    position: relative;
+}
+
+
+/* About page */
+/* Darken page name when hovering over it */
 a { 
     color: black;
     transition: .2s ease-in-out;
 }
-
 a:link {
     text-decoration: none;
 }
-
 a:visited {
     text-decoration: none;
 }
-
 a:hover {
     filter: brightness(0%);
     transition: .2s ease-in-out;
-
 }
-
 a:active {
     text-decoration: none;
 }
 
+/* Align page content on bottom right corner */
+.about_me {
+    float: right;
+    position: relative;
+}
+#headshot {
+    position: relative;
+    padding-bottom: 10px;
+    float: right;
+    max-width: 100%;
+    /* align-items: center; */
+}
+#biography {
+    position: relative;
+    padding-bottom: 10px;
+    float: right;
+    font-size: 20px;
+}
 
+
+/* Project page */
+#project_list {
+    float: right;
+    position: relative;
+    padding-right: 10px;
+}
+.projects {
+    font-weight: 900;
+    color: rgb(84, 84, 84);
+}
+
+
+/* Contact page */
 /* Lighten contact icons */
 .contact_icons {
     height: 50px;
     width: 50px;
     transition: .2s ease-in-out;
 }
-
-
 .contact_icons:hover {
-    opacity: 0.5;
+    opacity: 0.7;
     transition: .2s ease-in-out;
 }
 
-
-/* Darken current page name */
-#home {
-    filter: brightness(0%);
+/* Align page content on bottom right corner */
+.contact {
+    position: relative;
+    font-size: 20px;
+}
+#message_prompt {
+    font-size: 20px;
+}
+.message_form {
+    position: relative;
+    padding: 10px;
+}
+input {
+    font-family: 'Anonymous Pro', monospace;
+    width: 300px;
+}
+label {
+    font-size: 20px;
+}
+#submit_button {
+    font-size: 20px;
 }
 
-#about {
-    filter:brightness(0%);
-}
-
-#projects {
-    filter:brightness(0%);
-}
-
-#contact {
-    filter:brightness(0%);
+/* Add space between button and previous form element */
+#submit_button {
+    margin-top: 10px;
 }
 
 
-/* Extra small devices */
-@media only screen and (max-width: 600px) {
-
-}
-
-
+/* Media queries */
 /* Small devices */
-@media only screen and (min-width: 600px) {
-
+@media only screen and (max-width: 15cm) {
+    .name {
+        font-weight: 200;
+        font-size: 40px;
+    }
+    .description {
+        font-size: 26px;
+    }
+    .pages {
+        margin-bottom: 10px;
+    }
+    #welcome {
+        font-weight: 200;
+        font-size: 40px;
+        padding-left: 10px;
+    }
+    .about_me {
+        max-width: 100%;
+        padding: 20px;
+    }
+    #project_list {
+        margin-left: -35px;
+    }
+    .contact_info {
+        max-width: 100%;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .contact {
+        padding-left: 15px;
+    }
+    .contact_icons {
+        padding-left: 10px;
+    }
+    #message {
+        height: 100px;
+        width: 300px;
+    }
+    .projects {
+        font-size: 26px;
+    }
 }
-
-
-/* Medium devices */
-@media only screen and (min-width: 768px) {
-
-}
-
 
 /* Large devices */
-@media only screen and (min-width: 992px) {
-
-}
-
-
-/* Extra large */
-@media only screen and (min-width: 1200px) {
-
+@media only screen and (min-width: 15cm) {
+    .name {
+        font-weight: 100;
+        font-size: 50px;
+    }
+    .description {
+        font-size: 30px;
+    }
+    #welcome {
+        float: right;
+        font-weight: 100;
+        font-size: 50px;
+        padding-top: 230px;
+        padding-right: 20px;
+    }
+    .about_me {
+        max-width: 25%;
+        margin-top: -140px;
+        margin-bottom: -20px;
+    }
+    #project_list {
+        padding-top: 258px;
+    }
+    .contact_info {
+        max-width: 20%;
+        margin-top: -80px;
+        padding-right: 100px;
+    }
+    #message {
+        height: 100px;
+        width: 300px;
+    }
+    .projects {
+        font-size: 30px;
+    }
+    #contact_container {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 20px;
+    }
 }
