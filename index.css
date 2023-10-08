@@ -90,7 +90,7 @@ a:active {
 /* Project page */
 #project_list {
     float: right;
-    position: relative;
+    /* position: relative; */
     padding-right: 10px;
 }
 .projects {
