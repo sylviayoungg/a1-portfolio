@@ -205,10 +205,10 @@ label {
     .about_me {
         max-width: 25%;
         margin-top: -140px;
-        margin-bottom: -40px;
+        margin-bottom: -60px;
     }
     #project_list {
-        padding-top: 180px;
+        padding-top: 170px;
     }
     .contact_info {
         max-width: 20%;
