@@ -90,11 +90,8 @@ a:active {
 /* Project page */
 #project_list {
     float: right;
-<<<<<<< HEAD
     position: relative;
-=======
     /* position: relative; */
->>>>>>> ffdf64d79c20b2160c9189b5ce17ed24befb4c3e
     padding-right: 10px;
 }
 .projects {
@@ -207,7 +204,7 @@ label {
     }
     .about_me {
         max-width: 25%;
-        margin-top: -140px;
+        /* margin-top: -140px; */
         margin-bottom: -20px;
     }
     #project_list {
