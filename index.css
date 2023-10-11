@@ -204,7 +204,7 @@ label {
     }
     .about_me {
         max-width: 25%;
-        /* margin-top: -140px; */
+        margin-top: -140px;
         margin-bottom: -20px;
     }
     #project_list {
@@ -220,6 +220,7 @@ label {
         width: 300px;
     }
     .projects {
+        margin-top: -100;
         font-size: 30px;
     }
     #contact_container {
